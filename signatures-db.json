@@ -86,7 +86,9 @@
     { "name": "Skio", "patterns": ["skio.com"], "domain": "skio.com" },
     { "name": "Loop Subscriptions", "patterns": ["loopsubscriptions"], "domain": "loopwork.co" },
     { "name": "Seal Subscriptions", "patterns": ["sealsubscriptions"], "domain": "sealsubscriptions.com", "handle": "seal-subscriptions-app" },
-    { "name": "PayWhirl", "patterns": ["paywhirl"], "domain": "paywhirl.com" }
+    { "name": "PayWhirl", "patterns": ["paywhirl"], "domain": "paywhirl.com" },
+    { "name": "Easy Subscriptions", "patterns": ["easysubscription.io", "easysubscriptions"], "domain": "easysubscription.io" },
+    { "name": "Recurpay", "patterns": ["recurpay"], "domain": "recurpay.com", "handle": "recurpay-subscriptions" }
   ],
   "genericApps": {
     "privy.com": { "name": "Privy", "category": "Email Popups", "domain": "privy.com", "handle": "privy-conversion-marketing" },
@@ -138,6 +140,145 @@
     "gokwik": { "name": "GoKwik", "category": "Checkout Optimization", "domain": "gokwik.co" },
     "shiprocket": { "name": "Shiprocket", "category": "Shipping", "domain": "shiprocket.in" },
     "freshchat": { "name": "Freshchat", "category": "Live Chat", "domain": "freshchat.com" },
-    "wisernotify": { "name": "WiserNotify", "category": "Social Proof", "domain": "wisernotify.com" }
+    "wisernotify": { "name": "WiserNotify", "category": "Social Proof", "domain": "wisernotify.com" },
+
+    "spocket": { "name": "Spocket", "category": "Dropshipping & Sourcing", "domain": "spocket.co" },
+    "syncee": { "name": "Syncee", "category": "Dropshipping & Sourcing", "domain": "syncee.com" },
+    "cjdropshipping": { "name": "CJdropshipping", "category": "Dropshipping & Sourcing", "domain": "cjdropshipping.com" },
+    "zendrop": { "name": "Zendrop", "category": "Dropshipping & Sourcing", "domain": "zendrop.com" },
+    "dsers": { "name": "DSers", "category": "Dropshipping & Sourcing", "domain": "dsers.com" },
+    "autods": { "name": "AutoDS", "category": "Dropshipping & Sourcing", "domain": "autods.com" },
+    "printify": { "name": "Printify", "category": "Print on Demand", "domain": "printify.com" },
+    "printful": { "name": "Printful", "category": "Print on Demand", "domain": "printful.com" },
+    "branvas": { "name": "Branvas", "category": "Dropshipping & Sourcing", "domain": "branvas.com" },
+
+    "parcelpanel": { "name": "ParcelPanel", "category": "Order Tracking", "domain": "parcelpanel.com" },
+    "track123": { "name": "Track123", "category": "Order Tracking", "domain": "track123.com" },
+    "17track": { "name": "17TRACK", "category": "Order Tracking", "domain": "17track.net" },
+    "easyship": { "name": "Easyship", "category": "Shipping", "domain": "easyship.com" },
+    "shipbob": { "name": "ShipBob", "category": "Shipping & Fulfillment", "domain": "shipbob.com" },
+    "goshippo": { "name": "Shippo", "category": "Shipping", "domain": "goshippo.com" },
+    "zapiet": { "name": "Zapiet", "category": "Local Delivery / Pickup", "domain": "zapiet.com" },
+
+    "bundleup": { "name": "Bundler", "category": "Upsell & Bundles", "domain": "bundleup.app" },
+    "pickystory": { "name": "PickyStory", "category": "Upsell & Bundles", "domain": "pickystory.com" },
+    "zoorix": { "name": "Zoorix", "category": "Upsell & Bundles", "domain": "zoorix.com" },
+    "hurrify": { "name": "Hurrify", "category": "Countdown / Urgency", "domain": "hurrify.com" },
+    "nudgify": { "name": "Nudgify", "category": "Social Proof", "domain": "nudgify.com" },
+    "kiwisizing": { "name": "Kiwi Sizing", "category": "Size Charts", "domain": "kiwisizing.com" },
+
+    "pandectes": { "name": "Pandectes GDPR Compliance", "category": "Cookie Consent", "domain": "pandectes.io", "handle": "pandectes-gdpr-compliance" },
+    "consentmo": { "name": "Consentmo", "category": "Cookie Consent", "domain": "consentmo.com" },
+
+    "refersion": { "name": "Refersion", "category": "Affiliate Marketing", "domain": "refersion.com" },
+    "uppromote": { "name": "UpPromote", "category": "Affiliate Marketing", "domain": "uppromote.com", "handle": "uppromote-affiliate-marketing" },
+    "leaddyno": { "name": "LeadDyno", "category": "Affiliate Marketing", "domain": "leaddyno.com" },
+
+    "pluginseo": { "name": "Plug in SEO", "category": "SEO", "domain": "pluginseo.com" },
+    "avada": { "name": "Avada SEO", "category": "SEO", "domain": "avada.io" },
+
+    "katanamrp": { "name": "Katana MRP", "category": "Inventory Management", "domain": "katanamrp.com" },
+    "extensiv": { "name": "Extensiv (Skubana)", "category": "Inventory Management", "domain": "extensiv.com" },
+    "stockyhq": { "name": "Stocky", "category": "Inventory Management", "domain": "stockyhq.com" },
+
+    "chatra": { "name": "Chatra", "category": "Live Chat", "domain": "chatra.io" },
+    "livechatinc": { "name": "LiveChat", "category": "Live Chat", "domain": "livechatinc.com" },
+
+    "getresponse": { "name": "GetResponse", "category": "Email Marketing", "domain": "getresponse.com" },
+    "convertkit": { "name": "ConvertKit", "category": "Email Marketing", "domain": "convertkit.com" },
+    "brevo": { "name": "Brevo (Sendinblue)", "category": "Email Marketing", "domain": "brevo.com" },
+
+    "rise.ai": { "name": "Rise.ai", "category": "Loyalty & Rewards", "domain": "rise.ai" },
+    "marsello": { "name": "Marsello", "category": "Loyalty & Rewards", "domain": "marsello.com" },
+
+    "bloomreach": { "name": "Bloomreach", "category": "Personalization", "domain": "bloomreach.com" },
+    "powr.io": { "name": "POWR Form Builder", "category": "Forms", "domain": "powr.io" },
+
+    "trueprofit": { "name": "TrueProfit", "category": "Analytics / Tracking", "domain": "trueprofit.io" },
+    "lifetimely": { "name": "Lifetimely", "category": "Analytics / Tracking", "domain": "lifetimely.io" },
+    "peel.com": { "name": "Peel Analytics", "category": "Analytics / Tracking", "domain": "peel.com" },
+    "aitrillion": { "name": "AiTrillion", "category": "All-in-one Marketing", "domain": "aitrillion.com" },
+
+    "growave.io/apps/product-filter": { "name": "Smart Product Filter & Search", "category": "Search & Filter", "domain": "growave.io", "handle": "product-filter-and-search" },
+    "xcloud": { "name": "XCloud Search & Product Filter", "category": "Search & Filter", "domain": "xcloudapp.com" },
+    "sparq-search": { "name": "Sparq Product Filter & Search", "category": "Search & Filter", "domain": "sparqapp.com", "handle": "sparq-search" },
+    "boostcommerce": { "name": "Boost AI Search & Filter", "category": "Search & Filter", "domain": "boostcommerce.net", "handle": "product-filter-search" },
+    "wizzy": { "name": "Wizzy AI Search & Filter", "category": "Search & Filter", "domain": "wizzy.ai", "handle": "wizzy-search-filters" },
+
+    "reelup": { "name": "ReelUp — Shoppable Videos+Reels", "category": "Shoppable Video / Reels", "domain": "reelup.io" },
+    "shopvid": { "name": "Shopvid Shoppable Videos Reels", "category": "Shoppable Video / Reels", "domain": "shopvid.io" },
+    "vizup": { "name": "Vizup — Shoppable Video Slider", "category": "Shoppable Video / Reels", "domain": "vizup.io" },
+
+    "zeptoapps": { "name": "Zepto Product Personalizer", "category": "Product Customizer", "domain": "zeptoapps.com" },
+    "inkybay": { "name": "Inkybay — Product Personalizer", "category": "Product Customizer", "domain": "inkybay.com" },
+    "customproductoptions": { "name": "PC — Custom Product Options", "category": "Product Customizer", "domain": "shopcustomproductoptions.com" },
+
+    "powerfulcontactform": { "name": "Powerful Contact Form Builder", "category": "Contact Forms", "domain": "powerfulcontactform.com" },
+    "qikify": { "name": "Qikify Contact Form Builder", "category": "Contact Forms", "domain": "qikify.com", "handle": "contact-form-by-qikify" },
+    "hulkapps": { "name": "Hulk Contact Form Builder", "category": "Contact Forms", "domain": "hulkapps.com", "handle": "form-builder-by-hulkapps" },
+    "awio": { "name": "AWIO Improved Contact Form", "category": "Contact Forms", "domain": "awioweb.com" },
+
+    "flits.app": { "name": "Flits Loyalty Rewards Program", "category": "Loyalty & Rewards", "domain": "flits.app" },
+
+    "mlvcurrency": { "name": "MLV Auto Currency Switcher", "category": "Currency Switcher", "domain": "mlveda.com" },
+    "novacurrency": { "name": "Nova: Multi Currency Converter", "category": "Currency Switcher", "domain": "novaappstudio.com" },
+    "smartcs": { "name": "SmartCS: Currency Converter", "category": "Currency Switcher", "domain": "smartcs.app" },
+
+    "bixgrow": { "name": "BixGrow Affiliate Marketing", "category": "Affiliate Marketing", "domain": "bixgrow.com" },
+    "goaffpro": { "name": "GOAFFPRO — Affiliate Marketing", "category": "Affiliate Marketing", "domain": "goaffpro.com", "handle": "goaffpro" },
+
+    "smsbump": { "name": "SMSBump (Yotpo SMS & Email)", "category": "Email & SMS Marketing", "domain": "smsbump.com" },
+    "seguno": { "name": "Seguno Email Marketing", "category": "Email Marketing", "domain": "seguno.com" },
+    "sendlane": { "name": "Sendlane", "category": "Email Marketing", "domain": "sendlane.com" },
+    "constantcontact": { "name": "Constant Contact", "category": "Email Marketing", "domain": "constantcontact.com" },
+    "automizely": { "name": "Automizely Marketing", "category": "Email & SMS Marketing", "domain": "automizely.com" },
+    "recart": { "name": "Recart SMS & Messenger", "category": "Email & SMS Marketing", "domain": "recart.com" },
+    "firepush": { "name": "Firepush", "category": "Email & SMS Marketing", "domain": "firepush.io" },
+    "pushowl": { "name": "PushOwl Web Push", "category": "Email & SMS Marketing", "domain": "pushowl.com" },
+    "emailoctopus": { "name": "EmailOctopus", "category": "Email Marketing", "domain": "emailoctopus.com" },
+
+    "opinew": { "name": "Opinew", "category": "Reviews & UGC", "domain": "opinew.com" },
+    "trustspot": { "name": "TrustSpot", "category": "Reviews & UGC", "domain": "trustspot.io" },
+    "kudobuzz": { "name": "Kudobuzz Reviews", "category": "Reviews & UGC", "domain": "kudobuzz.com" },
+    "junip": { "name": "Junip Reviews", "category": "Reviews & UGC", "domain": "junip.co" },
+
+    "richpanel": { "name": "Richpanel", "category": "Customer Support", "domain": "richpanel.com" },
+    "gladly": { "name": "Gladly", "category": "Customer Support", "domain": "gladly.com" },
+    "kustomer": { "name": "Kustomer", "category": "Customer Support", "domain": "kustomer.com" },
+    "chatway": { "name": "Chatway Live Chat", "category": "Live Chat", "domain": "chatway.app" },
+
+    "selleasy": { "name": "Selleasy Cross/Upsell", "category": "Upsell & Bundles", "domain": "logbase.io", "handle": "upsell-cross-sell-kit-1" },
+    "frequently-bought-together": { "name": "Frequently Bought Together", "category": "Upsell & Bundles", "domain": "codeblackbelt.com", "handle": "frequently-bought-together" },
+    "getwiser.ai": { "name": "Wiser Personalization", "category": "Personalization", "domain": "getwiser.ai" },
+
+    "poptin": { "name": "Poptin", "category": "Email Popups", "domain": "poptin.com" },
+    "adoric": { "name": "Adoric Popups", "category": "Email Popups", "domain": "adoric.com" },
+
+    "socialsnowball": { "name": "Social Snowball", "category": "Affiliate Marketing", "domain": "socialsnowball.io" },
+    "gameball": { "name": "Gameball Loyalty", "category": "Loyalty & Rewards", "domain": "gameball.co" },
+    "zotabox": { "name": "Zotabox Trust Badges", "category": "Social Proof", "domain": "zotabox.com" },
+
+    "clickpost": { "name": "ClickPost Order Tracking", "category": "Order Tracking", "domain": "clickpost.in" },
+    "smartrr": { "name": "Smartrr Subscriptions", "category": "Subscriptions", "domain": "smartrr.com" },
+
+    "beprofit": { "name": "BeProfit Profit Analytics", "category": "Analytics / Tracking", "domain": "beprofit.co" },
+    "polaranalytics": { "name": "Polar Analytics", "category": "Analytics / Tracking", "domain": "polaranalytics.com" },
+    "conversific": { "name": "Conversific", "category": "Analytics / Tracking", "domain": "conversific.com" },
+
+    "inventory-planner": { "name": "Inventory Planner", "category": "Inventory Management", "domain": "inventory-planner.com" },
+
+    "avalara": { "name": "Avalara AvaTax", "category": "Tax & Compliance", "domain": "avalara.com" },
+
+    "doofinder": { "name": "Doofinder Site Search", "category": "Search & Filter", "domain": "doofinder.com" },
+    "klevu": { "name": "Klevu Search & Merchandising", "category": "Search & Filter", "domain": "klevu.com" },
+
+    "rewind": { "name": "Rewind Backups", "category": "Backup & Utilities", "domain": "rewind.com" },
+    "hextom": { "name": "Bulk Product Edit (Hextom)", "category": "Store Management", "domain": "hextom.com" },
+
+    "foursixty": { "name": "Foursixty", "category": "Social / UGC", "domain": "foursixty.com" },
+    "tagshop": { "name": "Tagshop Shoppable Instagram", "category": "Social / UGC", "domain": "tagshop.ai" },
+    "covet.pics": { "name": "Covet.pics Instagram Gallery", "category": "Social / UGC", "domain": "covet.pics" },
+
+    "uselocksmith": { "name": "Locksmith B2B Access", "category": "B2B & Wholesale", "domain": "uselocksmith.com" }
   }
 }
