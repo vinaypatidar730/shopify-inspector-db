@@ -90,6 +90,8 @@
     { "name": "Easy Subscriptions", "patterns": ["easysubscription.io", "easysubscriptions"], "domain": "easysubscription.io" },
     { "name": "Recurpay", "patterns": ["recurpay"], "domain": "recurpay.com", "handle": "recurpay-subscriptions" }
   ],
+  "extensionUUIDs": {
+  },
   "genericApps": {
     "privy.com": { "name": "Privy", "category": "Email Popups", "domain": "privy.com", "handle": "privy-conversion-marketing" },
     "smile.io": { "name": "Smile.io", "category": "Loyalty & Rewards", "domain": "smile.io", "handle": "smile-io" },
@@ -273,12 +275,49 @@
     "klevu": { "name": "Klevu Search & Merchandising", "category": "Search & Filter", "domain": "klevu.com" },
 
     "rewind": { "name": "Rewind Backups", "category": "Backup & Utilities", "domain": "rewind.com" },
-    "hextom": { "name": "Bulk Product Edit (Hextom)", "category": "Store Management", "domain": "hextom.com" },
+    "hextom": { "name": "Hextom App (Bulk Edit / Currency Converter / Countdown)", "category": "Store Management", "domain": "hextom.com" },
 
     "foursixty": { "name": "Foursixty", "category": "Social / UGC", "domain": "foursixty.com" },
     "tagshop": { "name": "Tagshop Shoppable Instagram", "category": "Social / UGC", "domain": "tagshop.ai" },
     "covet.pics": { "name": "Covet.pics Instagram Gallery", "category": "Social / UGC", "domain": "covet.pics" },
 
-    "uselocksmith": { "name": "Locksmith B2B Access", "category": "B2B & Wholesale", "domain": "uselocksmith.com" }
+    "uselocksmith": { "name": "Locksmith B2B Access", "category": "B2B & Wholesale", "domain": "uselocksmith.com" },
+
+    "weglot": { "name": "Weglot Translate", "category": "Language Switcher", "domain": "weglot.com" },
+    "langify": { "name": "Langify", "category": "Language Switcher", "domain": "langify.com" },
+    "gtranslate": { "name": "GTranslate", "category": "Language Switcher", "domain": "gtranslate.io" },
+    "bablic": { "name": "Bablic", "category": "Language Switcher", "domain": "bablic.com" },
+    "transcy": { "name": "Transcy Language & Currency", "category": "Language / Currency Switcher", "domain": "transcy.com" },
+
+    "bestcurrencyconverter": { "name": "Best Currency Converter", "category": "Currency Switcher", "domain": "bestcurrencyconverter.com" },
+    "currencyconverterplus": { "name": "Currency Converter Plus", "category": "Currency Switcher", "domain": "currencyconverterplus.com" },
+    "easyswitch": { "name": "EasySwitch Currency Converter", "category": "Currency Switcher", "domain": "easyswitch.app" },
+    "simpleautocurrency": { "name": "Simple Auto Currency Switcher", "category": "Currency Switcher", "domain": "simpleautocurrency.com" },
+    "coincurrency": { "name": "Coin Currency Converter", "category": "Currency Switcher", "domain": "coincurrency.app" },
+
+    "langshop": { "name": "LangShop Language Translate", "category": "Language Switcher", "domain": "langshopapp.com" },
+
+    "easyformapp": { "name": "EasyForm Contact Form", "category": "Contact Forms", "domain": "easyform.app" },
+    "contactformbear": { "name": "Contact Us Form Bear", "category": "Contact Forms", "domain": "formbear.com" },
+
+    "shipday": { "name": "Shipday Delivery Management", "category": "Delivery Management", "domain": "shipday.com" },
+    "bringg": { "name": "Bringg Delivery Management", "category": "Delivery Management", "domain": "bringg.com" },
+    "onfleet": { "name": "Onfleet", "category": "Delivery Management", "domain": "onfleet.com" },
+
+    "ecomengine-giftwrap": { "name": "Gift Wrap by EcomEngine", "category": "Gift Wrap", "domain": "ecomengine.com" },
+    "zestard-giftwrap": { "name": "Zestard Gift Wrap", "category": "Gift Wrap", "domain": "zestard.com" },
+
+    "simplebundles": { "name": "Simple Bundles & Kits", "category": "Upsell & Bundles", "domain": "simplebundles.app" },
+    "codegenix-bundle": { "name": "Bundle Products (Code Genix)", "category": "Upsell & Bundles", "domain": "codegenix.co" },
+    "rebolt": { "name": "Rebolt Bundle Builder", "category": "Upsell & Bundles", "domain": "reboltapp.com" },
+
+    "delightchat": { "name": "DelightChat WhatsApp Marketing", "category": "WhatsApp Marketing", "domain": "delightchat.io" },
+    "superlemon": { "name": "SuperLemon WhatsApp Chat", "category": "WhatsApp Marketing", "domain": "superlemon.io" },
+    "zoko": { "name": "Zoko WhatsApp Commerce", "category": "WhatsApp Marketing", "domain": "zoko.io" },
+    "interakt": { "name": "Interakt WhatsApp Marketing", "category": "WhatsApp Marketing", "domain": "interakt.ai" },
+
+    "tinyseo": { "name": "TinySEO", "category": "SEO", "domain": "tinyseo.app" },
+    "boosterapps": { "name": "Booster SEO & Speed Optimizer", "category": "SEO / Speed Optimizer", "domain": "boosterapps.com" },
+    "hyperspeed": { "name": "Hyperspeed Speed Optimizer", "category": "Speed Optimizer", "domain": "hyperspeedapp.com" }
   }
 }
