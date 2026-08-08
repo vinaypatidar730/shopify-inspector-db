@@ -39,7 +39,6 @@
     { "name": "Buildify", "patterns": ["buildify"], "domain": "buildify.shop" }
   ],
   "paymentGateways": [
-    { "name": "Shop Pay (Express Checkout Button)", "patterns": ["shopify_pay", "shop-pay", "shop_pay", "shopifypay"], "domain": "shop.app" },
     { "name": "PayPal", "patterns": ["paypal.com", "paypalobjects", "paypal_pay", "icon-paypal"], "domain": "paypal.com" },
     { "name": "Stripe", "patterns": ["js.stripe.com"], "domain": "stripe.com" },
     { "name": "Klarna", "patterns": ["klarna"], "domain": "klarna.com" },
@@ -47,15 +46,6 @@
     { "name": "Sezzle", "patterns": ["sezzle"], "domain": "sezzle.com" },
     { "name": "Affirm", "patterns": ["affirm.com", "affirm_pay"], "domain": "affirm.com" },
     { "name": "Amazon Pay", "patterns": ["amazon_pay", "amazonpay"], "domain": "amazon.com" },
-    { "name": "Apple Pay", "patterns": ["apple_pay", "applepay"], "domain": "apple.com" },
-    { "name": "Google Pay", "patterns": ["google_pay", "googlepay"], "domain": "pay.google.com" },
-    { "name": "Visa", "patterns": ["payment-icon--visa", "payment-icons--visa", "icon-visa", "icon--visa"], "domain": "visa.com" },
-    { "name": "Mastercard", "patterns": ["payment-icon--master", "payment-icons--master", "icon-master", "icon--master"], "domain": "mastercard.com" },
-    { "name": "American Express", "patterns": ["payment-icon--amex", "payment-icons--amex", "icon-amex", "icon--amex", "american_express"], "domain": "americanexpress.com" },
-    { "name": "Discover", "patterns": ["payment-icon--discover", "payment-icons--discover", "icon-discover", "icon--discover"], "domain": "discover.com" },
-    { "name": "Diners Club", "patterns": ["payment-icon--diners", "payment-icons--diners", "icon-diners", "diners_club"], "domain": "dinersclub.com" },
-    { "name": "JCB", "patterns": ["payment-icon--jcb", "payment-icons--jcb", "icon-jcb", "icon--jcb"], "domain": "global.jcb" },
-    { "name": "UnionPay", "patterns": ["payment-icon--union", "payment-icons--union", "icon-unionpay", "icon--unionpay"], "domain": "unionpayintl.com" },
     { "name": "Razorpay", "patterns": ["razorpay"], "domain": "razorpay.com" },
     { "name": "PayU", "patterns": ["payu.in", "payu-money"], "domain": "payu.in" },
     { "name": "CCAvenue", "patterns": ["ccavenue"], "domain": "ccavenue.com" }
