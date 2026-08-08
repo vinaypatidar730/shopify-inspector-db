@@ -82,7 +82,7 @@
     { "name": "Reviews.io", "patterns": ["reviews.io"], "domain": "reviews.io" }
   ],
   "subscriptionApps": [
-    { "name": "Recharge", "patterns": ["rechargepayments.com"], "domain": "rechargepayments.com", "handle": "recharge-subscriptions" },
+    { "name": "Recharge", "patterns": ["rechargepayments.com"], "domain": "rechargepayments.com", "handle": "subscription-payments" },
     { "name": "Bold Subscriptions", "patterns": ["boldapps.net"], "domain": "boldcommerce.com", "handle": "bold-subscriptions" },
     { "name": "Appstle", "patterns": ["appstle"], "domain": "appstle.com", "handle": "appstle-subscriptions-1" },
     { "name": "Skio", "patterns": ["skio.com"], "domain": "skio.com", "handle": "skio" },
@@ -137,6 +137,7 @@
     "reconvert": { "name": "ReConvert", "category": "Post-purchase Upsell", "domain": "reconvert.io", "handle": "reconvert-upsell-cross-sell" },
     "one-click-upsell": { "name": "One Click Upsell", "category": "Upsell", "domain": "zipify.com" },
     "instafeed": { "name": "Instafeed", "category": "Social / UGC", "domain": "instafeed.app", "handle": "instafeed" },
+    "bogos.io": { "name": "BOGOS.io Free Gift & Bundles", "category": "Upsell & Bundles", "domain": "bogos.io" },
     "swymrelay": { "name": "Swym", "category": "Wishlist", "domain": "swymcorp.com" },
     "trackify": { "name": "Trackify", "category": "Analytics / Tracking", "domain": "trackifyx.com" },
     "littledata": { "name": "Littledata", "category": "Analytics / Tracking", "domain": "littledata.io" },
