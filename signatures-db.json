@@ -20,15 +20,15 @@
     { "name": "PageFly", "patterns": ["pagefly"], "domain": "pagefly.io", "handle": "pagefly-landing-page-builder" },
     { "name": "GemPages", "patterns": ["gempages"], "domain": "gempages.net", "handle": "gempages-page-builder" },
     { "name": "Shogun", "patterns": ["getshogun", "shogun-"], "domain": "getshogun.com", "handle": "shogun-landing-page-builder" },
-    { "name": "Zipify Pages", "patterns": ["zipify"], "domain": "zipify.com" },
-    { "name": "LayoutHub", "patterns": ["layouthub"], "domain": "layouthub.co" },
+    { "name": "Zipify Pages", "patterns": ["zipify"], "domain": "zipify.com", "handle": "zipifypages" },
+    { "name": "LayoutHub", "patterns": ["layouthub"], "domain": "layouthub.com", "handle": "layout-hub" },
     { "name": "EComposer", "patterns": ["ecomposer"], "domain": "ecomposer.io", "handle": "ecomposer-landing-page-builder" },
-    { "name": "Instant Page Builder", "patterns": ["instant-page-builder", "webyze"], "domain": "webyze.com" },
-    { "name": "Replo", "patterns": ["replo.app", "replo-"], "domain": "replo.app" },
-    { "name": "Buildify", "patterns": ["buildify"], "domain": "buildify.app" }
+    { "name": "Instant Page Builder", "patterns": ["instant-page-builder", "webyze", "instant.so"], "domain": "instant.so", "handle": "instant-builder" },
+    { "name": "Replo", "patterns": ["replo.app", "replo-"], "domain": "replo.app", "handle": "alchemy" },
+    { "name": "Buildify", "patterns": ["buildify"], "domain": "buildify.shop" }
   ],
   "paymentGateways": [
-    { "name": "Shopify Payments / Shop Pay", "patterns": ["shopify_pay", "shop-pay", "shop_pay", "shopifypay"], "domain": "shopify.com" },
+    { "name": "Shop Pay (Express Checkout Button)", "patterns": ["shopify_pay", "shop-pay", "shop_pay", "shopifypay"], "domain": "shop.app" },
     { "name": "PayPal", "patterns": ["paypal.com", "paypalobjects", "paypal_pay", "icon-paypal"], "domain": "paypal.com" },
     { "name": "Stripe", "patterns": ["js.stripe.com"], "domain": "stripe.com" },
     { "name": "Klarna", "patterns": ["klarna"], "domain": "klarna.com" },
@@ -68,7 +68,7 @@
     { "name": "Outbrain", "patterns": ["outbrain.com"], "domain": "outbrain.com" }
   ],
   "reviewApps": [
-    { "name": "Judge.me", "patterns": ["judge.me", "judgeme"], "domain": "judge.me", "handle": "judgeme-product-reviews-app" },
+    { "name": "Judge.me", "patterns": ["judge.me", "judgeme"], "domain": "judge.me", "handle": "judgeme" },
     { "name": "Loox", "patterns": ["loox.io"], "domain": "loox.io", "handle": "loox" },
     { "name": "Yotpo", "patterns": ["yotpo.com"], "domain": "yotpo.com", "handle": "yotpo-social-reviews" },
     { "name": "Stamped.io", "patterns": ["stamped.io"], "domain": "stamped.io", "handle": "product-reviews-addon" },
@@ -83,7 +83,7 @@
     { "name": "Recharge", "patterns": ["rechargepayments.com"], "domain": "rechargepayments.com", "handle": "recharge-subscriptions" },
     { "name": "Bold Subscriptions", "patterns": ["boldapps.net"], "domain": "boldcommerce.com", "handle": "bold-subscriptions" },
     { "name": "Appstle", "patterns": ["appstle"], "domain": "appstle.com", "handle": "appstle-subscriptions-1" },
-    { "name": "Skio", "patterns": ["skio.com"], "domain": "skio.com" },
+    { "name": "Skio", "patterns": ["skio.com"], "domain": "skio.com", "handle": "skio" },
     { "name": "Loop Subscriptions", "patterns": ["loopsubscriptions"], "domain": "loopwork.co" },
     { "name": "Seal Subscriptions", "patterns": ["sealsubscriptions"], "domain": "sealsubscriptions.com", "handle": "seal-subscriptions-app" },
     { "name": "PayWhirl", "patterns": ["paywhirl"], "domain": "paywhirl.com" },
@@ -173,7 +173,7 @@
     "consentmo": { "name": "Consentmo", "category": "Cookie Consent", "domain": "consentmo.com" },
 
     "refersion": { "name": "Refersion", "category": "Affiliate Marketing", "domain": "refersion.com" },
-    "uppromote": { "name": "UpPromote", "category": "Affiliate Marketing", "domain": "uppromote.com", "handle": "uppromote-affiliate-marketing" },
+    "uppromote": { "name": "UpPromote", "category": "Affiliate Marketing", "domain": "uppromote.com", "handle": "affliate-by-secomapp" },
     "leaddyno": { "name": "LeadDyno", "category": "Affiliate Marketing", "domain": "leaddyno.com" },
 
     "pluginseo": { "name": "Plug in SEO", "category": "SEO", "domain": "pluginseo.com" },
@@ -199,7 +199,7 @@
     "trueprofit": { "name": "TrueProfit", "category": "Analytics / Tracking", "domain": "trueprofit.io" },
     "lifetimely": { "name": "Lifetimely", "category": "Analytics / Tracking", "domain": "lifetimely.io" },
     "peel.com": { "name": "Peel Analytics", "category": "Analytics / Tracking", "domain": "peel.com" },
-    "aitrillion": { "name": "AiTrillion", "category": "All-in-one Marketing", "domain": "aitrillion.com" },
+    "aitrillion": { "name": "AiTrillion", "category": "All-in-one Marketing", "domain": "aitrillion.com", "handle": "aitrillion" },
 
     "growave.io/apps/product-filter": { "name": "Smart Product Filter & Search", "category": "Search & Filter", "domain": "growave.io", "handle": "product-filter-and-search" },
     "xcloud": { "name": "XCloud Search & Product Filter", "category": "Search & Filter", "domain": "xcloudapp.com" },
@@ -274,7 +274,7 @@
     "doofinder": { "name": "Doofinder Site Search", "category": "Search & Filter", "domain": "doofinder.com" },
     "klevu": { "name": "Klevu Search & Merchandising", "category": "Search & Filter", "domain": "klevu.com" },
 
-    "rewind": { "name": "Rewind Backups", "category": "Backup & Utilities", "domain": "rewind.com" },
+    "rewind": { "name": "Rewind Backups", "category": "Backup & Utilities", "domain": "rewind.com", "handle": "backup" },
     "hextom": { "name": "Hextom App (Bulk Edit / Currency Converter / Countdown)", "category": "Store Management", "domain": "hextom.com" },
 
     "foursixty": { "name": "Foursixty", "category": "Social / UGC", "domain": "foursixty.com" },
