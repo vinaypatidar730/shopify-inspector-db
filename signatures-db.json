@@ -16,6 +16,17 @@
     "Electro", "Blocksy", "Handy", "Kala", "Trendify", "Ap Lucid",
     "Ashford", "Startup", "Fashionify", "Bazing", "Zoeva", "Craze"
   ],
+  "officialThemes": [
+    "Dawn", "Horizon", "Sense", "Craft", "Refresh", "Taste", "Studio",
+    "Colorblock", "Crave", "Origin", "Publisher", "Ride", "Broadcast",
+    "Impulse", "Turbo", "Prestige", "Motion", "Warehouse", "Flow",
+    "Impact", "Local", "Pipeline", "Alchemy", "Avenue", "District",
+    "Empire", "Enterprise", "Expanse", "Fetch", "Focal", "Mobilia",
+    "Modular", "Multi", "Native", "Parallax", "Pinnacle", "Providence",
+    "Retina", "Shapes", "Sunrise", "Symmetry", "Testament", "Vantage",
+    "Woodstock", "Streamline", "Debut", "Brooklyn", "Venture", "Supply",
+    "Minimal", "Boundless"
+  ],
   "pageBuilders": [
     { "name": "PageFly", "patterns": ["pagefly"], "domain": "pagefly.io", "handle": "pagefly-landing-page-builder" },
     { "name": "GemPages", "patterns": ["gempages"], "domain": "gempages.net", "handle": "gempages-page-builder" },
@@ -245,7 +256,7 @@
     "junip": { "name": "Junip Reviews", "category": "Reviews & UGC", "domain": "junip.co" },
 
     "richpanel": { "name": "Richpanel", "category": "Customer Support", "domain": "richpanel.com" },
-    "gladly": { "name": "Gladly", "category": "Customer Support", "domain": "gladly.com" },
+    "gladly.com": { "name": "Gladly", "category": "Customer Support", "domain": "gladly.com" },
     "kustomer": { "name": "Kustomer", "category": "Customer Support", "domain": "kustomer.com" },
     "chatway": { "name": "Chatway Live Chat", "category": "Live Chat", "domain": "chatway.app" },
 
@@ -274,7 +285,7 @@
     "doofinder": { "name": "Doofinder Site Search", "category": "Search & Filter", "domain": "doofinder.com" },
     "klevu": { "name": "Klevu Search & Merchandising", "category": "Search & Filter", "domain": "klevu.com" },
 
-    "rewind": { "name": "Rewind Backups", "category": "Backup & Utilities", "domain": "rewind.com", "handle": "backup" },
+    "rewind.com": { "name": "Rewind Backups", "category": "Backup & Utilities", "domain": "rewind.com", "handle": "backup" },
     "hextom": { "name": "Hextom App (Bulk Edit / Currency Converter / Countdown)", "category": "Store Management", "domain": "hextom.com" },
 
     "foursixty": { "name": "Foursixty", "category": "Social / UGC", "domain": "foursixty.com" },
@@ -283,7 +294,7 @@
 
     "uselocksmith": { "name": "Locksmith B2B Access", "category": "B2B & Wholesale", "domain": "uselocksmith.com" },
 
-    "weglot": { "name": "Weglot Translate", "category": "Language Switcher", "domain": "weglot.com" },
+    "weglot.com": { "name": "Weglot Translate", "category": "Language Switcher", "domain": "weglot.com" },
     "langify": { "name": "Langify", "category": "Language Switcher", "domain": "langify.com" },
     "gtranslate": { "name": "GTranslate", "category": "Language Switcher", "domain": "gtranslate.io" },
     "bablic": { "name": "Bablic", "category": "Language Switcher", "domain": "bablic.com" },
