@@ -101,7 +101,7 @@
     "tidio": { "name": "Tidio", "category": "Live Chat", "domain": "tidio.com", "handle": "tidio-chat" },
     "reamaze": { "name": "Re:amaze", "category": "Customer Support", "domain": "reamaze.com" },
     "tapcart": { "name": "Tapcart", "category": "Mobile App", "domain": "tapcart.com" },
-    "rebuyengine": { "name": "Rebuy", "category": "Upsell & Personalization", "domain": "rebuyengine.com", "handle": "rebuy-personalization-engine" },
+    "rebuyengine": { "name": "Rebuy", "category": "Upsell & Personalization", "domain": "rebuyengine.com", "handle": "rebuy" },
     "wheelio": { "name": "Wheelio", "category": "Email Popups / Gamification", "domain": "wheelio.com" },
     "optinmonster": { "name": "OptinMonster", "category": "Email Popups", "domain": "optinmonster.com" },
     "justuno": { "name": "Justuno", "category": "Email Popups / CRO", "domain": "justuno.com" },
