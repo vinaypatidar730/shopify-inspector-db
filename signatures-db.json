@@ -61,7 +61,8 @@
     { "name": "CCAvenue", "patterns": ["ccavenue"], "domain": "ccavenue.com" }
   ],
   "analytics": [
-    { "name": "Google Analytics / GA4", "patterns": ["googletagmanager.com", "google-analytics.com"], "domain": "analytics.google.com" },
+    { "name": "Google Analytics (GA4)", "patterns": ["gtag/js", "google-analytics.com"], "domain": "analytics.google.com" },
+    { "name": "Google Tag Manager", "patterns": ["gtm.js", "gtm-"], "domain": "tagmanager.google.com" },
     { "name": "Meta Pixel", "patterns": ["connect.facebook.net"], "domain": "facebook.com" },
     { "name": "TikTok Pixel", "patterns": ["analytics.tiktok.com"], "domain": "tiktok.com" },
     { "name": "Pinterest Tag", "patterns": ["s.pinimg.com/ct"], "domain": "pinterest.com" },
